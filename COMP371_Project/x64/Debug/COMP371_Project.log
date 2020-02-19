@@ -1,0 +1,79 @@
+﻿  main.cpp
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(67): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(255): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(306): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(393): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(394): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(398): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(399): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(400): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(401): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(403): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\keven\documents\comp371_project\comp371_project\main.cpp(427): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+  DiscoverySquare.cpp
+c:\users\keven\documents\comp371_project\comp371_project\discoverysquare.cpp(25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\discoverysquare.cpp(26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\discoverysquare.cpp(27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\discoverysquare.cpp(28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\discoverysquare.cpp(106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  rockTileBuilder.cpp
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(306): warning C4804: '>=': unsafe use of type 'bool' in operation
+c:\users\keven\documents\comp371_project\comp371_project\rocktilebuilder.cpp(326): warning C4804: '>=': unsafe use of type 'bool' in operation
+  Generating Code...
+DiscoverySquare.obj : error LNK2001: unresolved external symbol "private: static class std::vector<class circle *,class std::allocator<class circle *> > DiscoverySquare::cities" (?cities@DiscoverySquare@@0V?$vector@PEAVcircle@@V?$allocator@PEAVcircle@@@std@@@std@@A)
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol SOIL_load_image referenced in function "public: static unsigned int __cdecl TextureLoading::LoadCubemap(class std::vector<char const *,class std::allocator<char const *> >)" (?LoadCubemap@TextureLoading@@SAIV?$vector@PEBDV?$allocator@PEBD@std@@@std@@@Z)
+main.obj : error LNK2019: unresolved external symbol SOIL_free_image_data referenced in function "public: static unsigned int __cdecl TextureLoading::LoadCubemap(class std::vector<char const *,class std::allocator<char const *> >)" (?LoadCubemap@TextureLoading@@SAIV?$vector@PEBDV?$allocator@PEBD@std@@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferSubData
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+tile.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+main.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+main.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+tile.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+tile.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+..\SOIL2\soil2.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+..\glew\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+..\glfw\glfw3dll.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Keven\Documents\COMP371_Project\x64\Debug\COMP371_Project.exe : fatal error LNK1120: 46 unresolved externals
