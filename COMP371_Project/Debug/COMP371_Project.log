@@ -1,1 +1,14 @@
-﻿  COMP371_Project.vcxproj -> E:\GitHub\ProceduralGeneration_openGL\Debug\COMP371_Project.exe
+﻿  DiscoverySquare.cpp
+e:\github\proceduralgeneration_opengl\comp371_project\citytile.h(44): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(37): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(38): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(124): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(132): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(134): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(181): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(182): warning C4018: '<': signed/unsigned mismatch
+e:\github\proceduralgeneration_opengl\comp371_project\discoverysquare.cpp(192): warning C4018: '<': signed/unsigned mismatch
+  COMP371_Project.vcxproj -> E:\GitHub\ProceduralGeneration_openGL\Debug\COMP371_Project.exe

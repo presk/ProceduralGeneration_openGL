@@ -28,7 +28,7 @@ void DiscoverySquare::setCities()
 //Updates the square centered around the camera and prints the camera's position
 vector<vector<tile*>> * DiscoverySquare::update(glm::vec3 v)
 {
-	cout << v.x << " " << v.z << " " << endl;
+	//cout << v.x << " " << v.z << " " << endl;
 	//cout << data.size() << endl;
 	resetUsedData();
 	int xZero = (int)v.x - xSize / 2;

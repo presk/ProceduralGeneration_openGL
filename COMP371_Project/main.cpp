@@ -37,7 +37,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void do_movement();
 
 // Window dimensions
-const GLuint WIDTH = 800, HEIGHT = 600;
+const GLuint WIDTH = 1920, HEIGHT = 1080;
 
 // Camera
 //Taken from Learnopengl.com
